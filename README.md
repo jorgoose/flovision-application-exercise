@@ -1,6 +1,6 @@
 The approach I ended up going with is as follows:
 - Use KMeans clustering with the aim of seperating the flat surface points from the object points
-    - For the KMeans clustering, start with 2 clusters -- one at the "bottom" of the point cloud, based on the assumptions that we know it is likely the surface (since in the real world, the object cannot just phase through the surface), and one at the "top" of the point cloud, which we know is likely the object given the surface it's on is flat.
+    - For the KMeans clustering, started with 2 clusters -- one at the "bottom" of the point cloud, based on the assumptions that we know it is likely the surface (since in the real world, the object cannot just phase through the surface), and one at the "top" of the point cloud, which we know is likely the object given the surface it's on is flat.
 - Use a convex hull to calculate the volume of the cluster of object points
 - Convert the volume to the appropriate units and return it
 
