@@ -25,4 +25,4 @@ I spent about 2-3 hours on this exercise in total (closer to 3 including YouTube
 
 *Any feedback on this exercise to improve with future candidates?*
 
-I actually thought that this exercise was fun and challenging. 
+I actually thought that this exercise was fun and challenging. It is definitely not like any other type of challenge I've been given before (most I've seen are either LeetCode / DS&A type questions, but one time I did get a take home proejct for a web app). I feel like it made me think and a few parts that seemed "trivial" at first actuallt required some deeper thinking (ex: how to get the length of the object).
